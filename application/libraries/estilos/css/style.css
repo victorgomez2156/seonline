@@ -1,0 +1,1179 @@
+    
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075); }
+
+.table-hover .table-primary:hover {
+  background-color: #a5c7ea; }
+  .table-hover .table-primary:hover > td,
+  .table-hover .table-primary:hover > th {
+    background-color: #a5c7ea; }
+
+.table-hover .table-secondary:hover {
+  background-color: #c8cbcf; }
+  .table-hover .table-secondary:hover > td,
+  .table-hover .table-secondary:hover > th {
+    background-color: #c8cbcf; }
+
+.table-hover .table-success:hover {
+  background-color: #afe8a6; }
+  .table-hover .table-success:hover > td,
+  .table-hover .table-success:hover > th {
+    background-color: #afe8a6; }
+
+.table-hover .table-info:hover {
+  background-color: #abdde5; }
+  .table-hover .table-info:hover > td,
+  .table-hover .table-info:hover > th {
+    background-color: #abdde5; }
+
+
+.table-hover .table-warning:hover {
+  background-color: #fbd7a6; }
+  .table-hover .table-warning:hover > td,
+  .table-hover .table-warning:hover > th {
+    background-color: #fbd7a6; }
+
+.table-hover .table-danger:hover {
+  background-color: #f1b0b7; }
+  .table-hover .table-danger:hover > td,
+  .table-hover .table-danger:hover > th {
+    background-color: #f1b0b7; }
+
+.table-hover .table-light:hover {
+  background-color: #ececf6; }
+  .table-hover .table-light:hover > td,
+  .table-hover .table-light:hover > th {
+    background-color: #ececf6; }
+
+.table-hover .table-active:hover {
+  background-color: rgba(0, 0, 0, 0.075); }
+  .table-hover .table-active:hover > td,
+  .table-hover .table-active:hover > th {
+    background-color: rgba(0, 0, 0, 0.075); }
+        .tooltip_2 {
+            position: relative;
+            display: inline-block;
+            
+        }
+        #asistente_cliente_list{
+            max-height: 120px;
+            overflow-x: auto;
+            background: aliceblue;
+        }
+        .asistente_cliente_list_item{
+            border: 1px solid gainsboro;
+            padding: 5px;
+            margin-bottom: 5px;
+            background: white;
+            margin: 5;
+        }
+
+        .asistente_cliente_list_remover{
+            background: #f36a6a;
+            text-align: center;
+            color: white;
+            padding: 3px;
+            box-shadow: 1px 1px 5px gainsboro;
+            cursor: pointer;
+        }
+        .asistente_cliente_list_remover:hover{
+            background: #c14d4d;
+
+        }
+        .tooltip_2 .tooltiptext_2 {
+            visibility: hidden;
+            width: 120px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            margin-left: -60px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .tooltip_2 .tooltiptext_2::after {
+            /* content: "";
+            position: absolute;
+            top: 20%;
+            left: 100%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent; */
+
+                content: "";
+            position: absolute;
+            top: -22%;
+            left: 71%;
+            margin-left: -5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+            transform: rotate(179deg);
+        }
+
+        .tooltip_2:hover .tooltiptext_2 {
+            visibility: visible;
+            opacity: 1;
+        }
+        .tooltip-left {
+            /* top: -1px;
+            bottom: auto;
+            right: 128%; */
+
+                top: 22px;
+                bottom: auto;
+                right: -347%;
+        }
+        .editNote{
+            background-color: #ffc005;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-left: 10px;
+            color: white;
+            border-radius: 3px;
+            font-weight: 400;
+            cursor: pointer;
+        }
+        .editNote:hover{
+            background-color: #d8a200;
+        }
+
+        .anatacionInternaTitle{
+            background-color: rgb(255, 244, 112);
+            padding: 5px 2px 5px 10px;
+            text-transform: capitalize;
+            height: 30px;
+
+        }
+        .anatacionInternaBody{
+            background-color: rgb(255, 252, 179);
+            width: 100%;
+            /* height: 60px; */
+            font: normal 14px verdana;
+            line-height: 25px;
+            padding: 2px 10px;
+            margin-bottom: 10px;
+            border: none;
+        }
+
+        .btn-topTask{
+            background-color: #f6f8f9;
+            color: rgb(93, 93, 93);
+            box-shadow: none;
+            border: none;
+            margin-left: 15px;
+            padding-right: 10px; 
+        }
+        
+        .btn-topTask:hover{
+            background-color: #4be88f;
+            color: white;
+        }
+         .deshacer{
+            margin-left: 15px;
+        }
+        .deshacer:hover{
+            background-color: #ff9800;
+            color: white;
+            border: none;
+            margin-left: 15px;
+        }
+        .bottonAlert{
+            background-color: white;
+            height: 80px;
+            width: 250px;
+            position: fixed;
+            bottom: 35;
+            left: 0;
+            box-shadow: 10px 5px 35px #8c8b8bba;
+            z-index: 5;
+            border-radius: 4px;
+        }
+        .bottonAlert-001{
+            height: 10px;
+            border-radius: 0px 4px 0px 0px;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ddfe5+15,2ddfe5+15,2ad4ea+50,2dd9e2+74,7db9e8+100 */
+            background: #2ddfe5; /* Old browsers */
+            background: -moz-linear-gradient(left, #2ddfe5 15%, #2ddfe5 15%, #2ad4ea 50%, #2dd9e2 74%, #7db9e8 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #2ddfe5 15%,#2ddfe5 15%,#2ad4ea 50%,#2dd9e2 74%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #2ddfe5 15%,#2ddfe5 15%,#2ad4ea 50%,#2dd9e2 74%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ddfe5', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+        }
+        .bottonAlert-002{
+            height: 70px;
+        }
+          
+        .container{
+            /* margin-bottom: 0px; */
+        }
+        body{
+           /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6f8f9+1,f1f1f1+70,eaeaea+70,eaeaea+70 */
+background: rgb(246,248,249); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(246,248,249,1) 1%, rgba(241,241,241,1) 70%, rgba(234,234,234,1) 70%, rgba(234,234,234,1) 70%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(246,248,249,1) 1%,rgba(241,241,241,1) 70%,rgba(234,234,234,1) 70%,rgba(234,234,234,1) 70%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(246,248,249,1) 1%,rgba(241,241,241,1) 70%,rgba(234,234,234,1) 70%,rgba(234,234,234,1) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+        }
+        #t-0001{
+           /* height: 100%; */
+           box-shadow: 6px 6px 20px -2px rgba(29, 29, 29, 0.15);
+        }
+        #t-0002{
+            background-color: white;
+            padding: 5px;
+            border-radius: 5px 5px 0px 0px;
+            height: 56px;
+            margin-bottom: 4px;
+        }
+        #t-0003{
+            background-color: white;
+            min-height: 0px;
+            height: calc(100vh - 30vh);
+            overflow-y: auto;
+            overflow-x: hidden;
+            clear: both;
+        }
+        .t-0004{
+            height: 53px;
+            padding: 6px;
+            border-bottom: 1px solid gainsboro;
+            margin-bottom: 2px;
+            border-radius: 5px 0px 0px 0px;
+        }
+        .t-0004:hover{
+            background-color: #d8e0e859;
+        }
+        .t-0005{
+            float: left;
+            padding-top: 5px;
+
+        }
+        .t-0006{
+            padding: 5px;
+        }
+
+        #t-0007{
+            background-color: #f6f8f9;
+        }
+
+        #t-0009{
+            padding: 15px;
+            clear: both;
+        }
+        #t-0010{
+            padding-left: 0px;
+            background-color: #dcdcdc;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        #t-0011{
+            clear: both;
+            padding: 0px 15px 1px 15px;
+            margin-bottom: 0px;
+        }
+
+        .t-0012{
+            height: 46px;
+            width: auto;
+            float: left;
+            padding: 5px 10px 5px 5px;
+            cursor: pointer;
+            /* border: 1px solid white; */
+        }
+        .t-0012:hover{
+            /* border: 1px solid gainsboro; */
+            border-radius: 15px;
+            padding: 5px 10px 5px 5px;
+            background-color: whitesmoke;
+            
+        }
+        .t-0013{
+            background-color: #00adff;
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 30px;
+            border: 1px solid #419dff;
+            text-align: center;
+            padding: 6;
+            float: left;
+        }
+        .t-0014{
+            float: left;
+            margin-left: 5px;
+        }
+        .t-0015{
+            font-size: 12px;
+            height: 16px;
+            color: #a2a2a2;
+        }
+        .t-0016{
+            text-transform: capitalize;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        .t-0017{
+            background-color: #00adff;
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 30px;
+            border: 1px solid #419dff;
+            text-align: center;
+            padding: 8;
+            font-size: 16px;
+            float: left;
+
+        }
+
+        .t-0018{
+            float: right;
+            color: #5f5f5f;
+            font-size: 12px;
+            margin-top: 12px;
+            /* border: 1px solid gainsboro; */
+            border-radius: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 90px;
+            margin-left: 4px;
+            background-color: #f1f1f1;
+        }
+
+        .t-0019{
+            height: 45px;
+
+        }
+        .t-0020{
+            float: left;
+
+        }
+        .t-0021{
+            float: right;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+        .t-0022{
+            float: left;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 16px;
+            background-color: gainsboro;
+            border-radius: 0px 15px 15px 0px;
+            margin-top: -2px;
+            margin-left: 15px;
+            height: 40px;
+
+        }
+
+        .t-0023{
+            float: right;
+            font-size: 12px;
+            text-shadow: -1px 0 #d4d4d4, 0 1px #d4d4d4, 1px 0 #d4d4d4, 0 -1px #d4d4d4;
+            margin-top: 12px;
+            margin-right: 5px;
+            color: white;
+            display: none;
+        }
+        .t-0024{
+            float: right;
+            font-size: 12px;
+            color: #ff7979;
+            margin-top: 11px;
+            /* text-shadow: -1px 0 #9E9E9E, 0 1px #9E9E9E, 1px 0 #9E9E9E, 0 -1px #9E9E9E; */
+            border-radius: 3px;
+            background-color: #f1f1f1;
+            margin-left: 4px;
+            padding-left: 5px;
+            padding-right: 5px;
+            height: 22px;
+        }
+        
+        .t-0025{
+            margin-right: 5px;
+            color: #5f5f5f;
+            float: left;
+            text-transform: capitalize;
+        }
+        
+
+        .t-0026{
+            float: right;
+            margin-top: 12px;
+            /* border: 1px solid gainsboro; */
+            padding-left: 10px;
+            border-radius: 3px;
+            background-color: #f1f1f1;
+            margin-left: 4px;
+        }
+
+        .t-0027{
+            margin-right: 10px;
+            color: #5f5f5f;
+            float: left;
+            text-transform: capitalize;
+            padding-left: 2px;
+            padding-right: 2px;
+            background-color: #dcdcdc;
+        }
+
+        .t-0028{
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom: 10px;
+        }
+
+        .t-0029{
+            float: left;
+            padding: 2px;
+        }
+
+        .t-0030{
+            float: left;
+        }
+
+        .t-0031{
+            float: left;
+            margin-left: 15px;
+            border: 1px solid gainsboro;
+            border-radius: 4px;
+            padding: 2;
+            background-color: #ececec;
+        }
+
+        .t-0032{
+            padding: 10px;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            background-color: #ffffff;
+            color: #828181;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            font-size: 11px;
+
+            height: 31;
+        }
+
+        .t-0033{
+            float: right;
+            background-color: #bdbbbb;
+            color: white;
+            padding: 4;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 1px 1px 10px #cacaca;
+        }
+        .t-0033:hover{
+            background-color: #949393;
+        }
+
+        .t-0034{
+            padding: 8px;
+            font-weight: 400;
+        }
+
+        .t-0035{
+            font-size: 30px;
+            font-weight: 500;
+            float: left;
+            color: rgb(18, 143, 200);
+        }
+
+        .t-0036{
+            float: left;
+            padding: 5px;
+            margin-left: 5px;
+            color: #828282;
+            margin-bottom: 5px;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 118px;
+            text-align: center;
+        }
+        .t-0036:hover{
+            float: left;
+            padding: 5px;
+            margin-left: 5px;
+            color: white;
+            cursor: pointer;
+            background-color: #11989e;
+            margin-bottom: 5px;
+            border-radius: 3px;
+            width: 118px;
+            text-align: center;
+        }
+        .t-0037{
+            cursor: pointer;
+            float: left;
+            padding: 5px;
+            margin-left: 5px;
+            background-color: #11989e;
+            color: white;
+            margin-bottom: 5px;
+            border-radius: 3px;
+            width: 118px;
+            text-align: center;
+        }
+        .t-0038{
+            border-bottom: 1px solid gainsboro;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 4px;
+            margin-top: 10px;
+            font-weight: 400;
+        }
+        .t-0039{
+            margin-top: 5px;
+            color: #797979;
+        }
+        .t-0040{
+            margin-left: 48px;
+            margin-top: -12px;
+            font-size: 11px;
+        }
+        .t-0041{
+            background-color: #2196F3;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 25px;
+            padding-right: 25px;
+            cursor: pointer;
+            color: white;
+            border-radius: 3px;
+        }
+        .t-0041:hover{
+            background-color: #146eb5;
+        }
+
+        .t-0042{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3acaff+2,3acaff+3,d1f2ff+3,ffffff+3 */
+// background: #3acaff; /* Old browsers */
+// background: -moz-linear-gradient(-45deg,  #3acaff 2%, #3acaff 3%, #d1f2ff 3%, #ffffff 3%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(-45deg,  #3acaff 2%,#3acaff 3%,#d1f2ff 3%,#ffffff 3%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(135deg,  #3acaff 2%,#3acaff 3%,#d1f2ff 3%,#ffffff 3%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3acaff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+// background: #e1ffff; /* Old browsers */
+// background: -moz-linear-gradient(-45deg,  #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(-45deg,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(135deg,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#e6f8fd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12 */
+// background: rgb(225,255,255); /* Old browsers */
+// background: -moz-linear-gradient(-45deg,  rgba(225,255,255,1) 0%, rgba(225,255,255,1) 7%, rgba(225,255,255,1) 12%, rgba(253,255,255,1) 12%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(-45deg,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(135deg,  rgba(225,255,255,1) 0%,rgba(225,255,255,1) 7%,rgba(225,255,255,1) 12%,rgba(253,255,255,1) 12%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#fdffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1da36+5,fefcea+6 */
+// background: rgb(241,218,54); /* Old browsers */
+// background: -moz-linear-gradient(-45deg,  rgba(241,218,54,1) 5%, rgba(254,252,234,1) 6%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(-45deg,  rgba(241,218,54,1) 5%,rgba(254,252,234,1) 6%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(135deg,  rgba(241,218,54,1) 5%,rgba(254,252,234,1) 6%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1da36', endColorstr='#fefcea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff200+5,fefcea+6 */
+// background: rgb(255,242,0); /* Old browsers */
+// background: -moz-linear-gradient(-45deg,  rgba(255,242,0,1) 5%, rgba(254,252,234,1) 6%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(-45deg,  rgba(255,242,0,1) 5%,rgba(254,252,234,1) 6%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(135deg,  rgba(255,242,0,1) 5%,rgba(254,252,234,1) 6%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff200', endColorstr='#fefcea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff200+5,fcfcfc+5 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff200+5,ffffff+5 */
+// background: rgb(255,242,0); /* Old browsers */
+// background: -moz-linear-gradient(-45deg,  rgba(255,242,0,1) 5%, rgba(255,255,255,1) 5%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(-45deg,  rgba(255,242,0,1) 5%,rgba(255,255,255,1) 5%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(135deg,  rgba(255,242,0,1) 5%,rgba(255,255,255,1) 5%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff200', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffe500+4,ffffff+5&1+0,0+100 */
+background: -moz-linear-gradient(-45deg,  rgba(255,229,0,1) 0%, rgba(255,229,0,0.96) 4%, rgba(255,255,255,0.95) 5%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(255,229,0,1) 0%,rgba(255,229,0,0.96) 4%,rgba(255,255,255,0.95) 5%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(255,229,0,1) 0%,rgba(255,229,0,0.96) 4%,rgba(255,255,255,0.95) 5%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe500', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+        }
+        .t-0042:hover{
+          
+        }
+        .t-0043{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e1ffff+0,e1ffff+7,e1ffff+12,fdffff+12,e6f8fd+30 */
+// background: #e1ffff; /* Old browsers */
+// background: -moz-linear-gradient(-45deg,  #e1ffff 0%, #e1ffff 7%, #e1ffff 12%, #fdffff 12%, #e6f8fd 30%); /* FF3.6-15 */
+// background: -webkit-linear-gradient(-45deg,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%); /* Chrome10-25,Safari5.1-6 */
+// background: linear-gradient(135deg,  #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+// filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#e6f8fd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+
+        }
+        .t-0043:hover{
+          
+        }
+
+        .t-0044{
+            display: table;
+            background: aliceblue;
+            border: 1px solid #c6e2fb;
+            padding: 3;
+            border-radius: 3px;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        .t-0045{
+            width: 100px;
+            padding: 5px;
+            color: white;
+            border-radius: 0px 0px 15px 15px;
+            /* margin-left: -3px; */
+            text-align: center;
+            /* margin-top: 3px; */
+            box-shadow: 1px 1px 5px #0e0e0e47;
+            font-weight: bold;
+            margin-bottom: 3px;
+            background: rgb(59,103,158);
+            background: -moz-linear-gradient(45deg, rgba(59,103,158,1) 0%, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%);
+            background: -webkit-linear-gradient(45deg, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+            background: linear-gradient(45deg, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=1 );
+
+        }
+
+        .t-0046{
+            border: none;
+            width: 383px;
+            padding: 8px;
+            background-color: aliceblue;
+            color: #4c4c4c;
+            margin-top: 0px;
+            font-size: 18px;
+        }
+        .t-0046:hover{
+            
+        }
+        .t-0047{
+            margin-left: -3px;
+            padding: 10px;
+            border: none;
+            background-color: #94c8f5;
+            height: 37px;
+            color: white;
+            border-radius: 0px 5px 5px 0px;
+        }
+        .t-0047:hover{
+            background-color: #608fb7;
+        }
+
+        .t-0048{
+            float: left;
+            padding: 5px;
+            margin-left: 5px;
+            color: #828282;
+            margin-bottom: 5px;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 118px;
+            text-align: center;
+        }
+        .t-0048:hover{
+            float: left;
+            padding: 5px;
+            margin-left: 5px;
+            color: white;
+            cursor: pointer;
+            background-color: #11989e;
+            margin-bottom: 5px;
+            border-radius: 3px;
+            width: 118px;
+            text-align: center;
+        }
+
+        .t-0049{
+            cursor: pointer;
+            float: left;
+            padding: 5px;
+            margin-left: 5px;
+            background-color: #11989e;
+            color: white;
+            margin-bottom: 5px;
+            border-radius: 3px;
+            width: 118px;
+            text-align: center;
+        }
+
+        .t-0050{
+            background: white;
+            height: 35px;
+            color: black;
+        }
+
+        .t-0051{
+            background: #ffffff00;
+        }
+
+        #critical_date {
+            clear: both;
+            margin-top: 20px;
+        }
+
+         #critical_date_father {
+            clear: both;
+            margin-top: 20px;
+        }
+
+        #name_asistente_cliente{
+            width: 300px;
+            margin-bottom: 5px;
+        }
+        #phone_asistente_cliente{
+            margin-bottom: 5px;
+            width: 151px;
+        }
+        #email_asistente_cliente{
+            width: 455px;
+            margin-bottom: 5px;
+        }
+        #btn_add_asistente_cliente{
+            width: 100%;
+            clear: both;
+            text-align: center;
+        }
+        #body_assined{
+            height: 300px;
+            overflow-y: auto;
+            clear: both;
+        }
+
+        #body_assined_2{
+            height: 300px;
+            overflow-y: auto;
+            clear: both;
+        }
+        
+        #body_workflow_2{
+            height: 250px;
+            overflow-y: auto;
+        }
+
+        #body_workflow_search{
+            padding: 10px;
+            width: calc(99% - 15px);
+            background-color: #ececec;
+            margin-left: 10px;
+            border: none;
+            margin-top: 5px;
+        }
+        .search_team{
+            padding: 10px;
+            width: 100%;
+            background-color: #ececec;
+            border: none;
+            margin-top: 5px;
+        }
+        #calendar_1{
+            padding: 10;
+        }
+        
+        .active-orden, .active-status-son, .active-doc_rec{
+            background: #57b6ef;
+            color: white;
+        }
+
+         
+        .active-status{
+            background: #57b6ef;
+            color: white;
+        }
+        .active-show{
+            background: #57b6ef;
+            color: white;
+        }
+
+        .active-follow{
+            background: #57b6ef;
+            color: white;
+        }
+
+        #subTaskList{
+            width: 100%;
+            clear: both;
+            padding: 1px 15px 15px 15px;
+            margin-bottom: 20px;
+        }
+        #editTask{
+            min-height: calc(100vh - 100px);
+            /* height: 93vh; */
+            /* height: calc(100vh - 79px); */
+            box-shadow: 1px 1px 50px rgba(115, 115, 115, 0.38);
+            /* position: relative; */
+            /* top: -145px; */
+            background-color: white;
+            border: 3px solid white;
+            border-radius: 5px;
+            z-index: 98;
+        }
+        .team_radio{
+            float: right;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        #editSubTask{
+            min-height: calc(100vh - 100px);
+            /* height: calc(100vh - 79px); */
+            box-shadow: 1px 1px 50px rgba(115, 115, 115, 0.38);
+            /* position: relative; */
+            /* top: -145px; */
+            background-color: white;
+            border: 3px solid white;
+            border-radius: 5px;
+            z-index: 99;
+        }
+
+        #totalTaskMain{
+            float: right;
+            margin-right: 26px;
+            margin-top: 5px;
+            font-size: 16px;
+            font-family: Verdana, Geneva, sans-serif;
+            background-color: #f6f7f8;
+            border: 1px solid white;
+            border-radius: 4px;
+            color: #566d84;
+            padding: 3px;
+            box-shadow: inset 1px 3px 3px 0px #bbbaba;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        #subTaskListText{
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+            color: #d8d8d8;
+            background-color: #f9f9f9;
+        }
+
+        #subTaskListText::before{
+            content: "Tareas";
+        }
+
+        #subTaskListMeeting{
+            clear: both;
+            width: 100%;
+            padding: 1px 15px 15px 15px;
+            margin-bottom: 20px;
+        }
+
+        #subTaskListTextMeeting {
+            clear: both;
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+            color: #d8d8d8;
+            background-color: #f9f9f9;
+            width: 100%;
+        }
+
+        #subTaskListTextMeeting::before{
+            content: "Reuniones";
+        }
+
+        #notesTaskListText{
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+            color: #d8d8d8;
+            background-color: #f9f9f9;
+        }
+        #notesTaskListText::before{
+            content: "Anotaciones";
+        }
+
+         #notesFatherTaskListText{
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+            color: #d8d8d8;
+            background-color: #f9f9f9;
+        }
+        #notesFatherTaskListText::before{
+            content: "Anotaciones";
+        }
+
+        #documentsTaskListText{
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+            color: #d8d8d8;
+            background-color: #f9f9f9;
+        }
+        #documentsTaskListText::before{
+            content: "Documentos";
+        }
+
+        #documentsFatherTaskListText{
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+            color: #d8d8d8;
+            background-color: #f9f9f9;
+        }
+        #documentsFatherTaskListText::before{
+            content: "Documentos";
+        }
+
+        
+
+        #alertDivSon{
+            color: white;
+            clear: both;
+            padding: 10;
+            background-color: #fd5555;
+        }
+        #alertDivFather{
+            color: white;
+            clear: both;
+            padding: 10;
+            background-color: #fd5555;
+        }
+
+        #task{
+            padding: 15px;
+            padding-top: 0px;
+            /* overflow-y: auto;
+            height: calc(100vh - 35vh); */
+        }
+
+        .inputTask{
+            background-color: #ffffff00;
+            border: none;
+            font-size: 14px;
+            height: 30px;
+            padding: 10px;
+            width: 65%;
+            cursor: pointer;
+            color: #3e3e3e;
+            font-weight: 400;
+
+        }
+
+        /* #addSubTask{
+            background-color: #f6f8f9;
+            color: rgb(93, 93, 93);
+            box-shadow: none;
+            border: 1px solid gainsboro;
+        }
+        #addSubTask:hover{
+            background-color: gainsboro;;
+            color: white;
+        } */
+
+         .deleteTaskButton{
+            background-color: #ec2f2f;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            border-radius: 3px;
+            font-weight: 400;
+            width: 200px;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+        .deleteTaskButton:hover{
+            background-color: #ce1313;
+        }
+
+
+        .only_in_meeting{
+           
+        }
+        .completed{
+            background-color: #4be88f;
+        }
+
+        #closeEditTask{
+            float: right;
+            font-size: 22px;
+            color: grey;
+            margin-top: 3px;
+            padding: 8px;
+        }
+        #closeEditSubTask{
+            float: right;
+            font-size: 22px;
+            color: grey;
+            margin-top: 3px;
+            padding: 8px;
+        }
+        .form-group {
+            padding-bottom: 15px;
+            margin: 0 0 0 0; 
+        }
+
+
+        .label__checkbox {
+        display: none;
+        }
+
+        .label__check {
+        display: inline-block;
+        border-radius: 50%;
+        border: 5px solid rgba(0,0,0,0.1);
+        background: white;
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 2em;
+        height: 2em;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: border .3s ease;
+        color: white;
+        
+        i.icon {
+            opacity: 0.2;
+            font-size: ~'calc(1rem + 1vw)';
+            color: transparent;
+            transition: opacity .3s .1s ease;
+            -webkit-text-stroke: 3px rgba(0,0,0,.5);
+        }
+        
+        &:hover {
+            border: 5px solid rgba(0,0,0,0.2);
+        }
+        }
+
+        .label__checkbox:checked + .label__text .label__check {
+        animation: check .5s cubic-bezier(0.895, 0.030, 0.685, 0.220) forwards;
+        
+        .icon {
+            opacity: 1;
+            transform: scale(0);
+            color: white;
+            -webkit-text-stroke: 0;
+            animation: icon .3s cubic-bezier(1.000, 0.008, 0.565, 1.650) .1s 1 forwards;
+        }
+        }
+
+
+
+        @keyframes  icon {
+            from {
+                opacity: 0;
+                transform: scale(0.3);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1)
+            }
+        }
+
+        @keyframes  check {
+            0% {
+                width: 1.5em;
+                height: 1.5em;
+                border-width: 5px;
+            }
+            10% {
+                width: 1.5em;
+                height: 1.5em;
+                opacity: 0.1;
+                background: rgba(0,0,0,0.2);
+                border-width: 15px;
+            }
+            12% {
+                width: 1.5em;
+                height: 1.5em;
+                opacity: 0.4;
+                background: rgba(0,0,0,0.1);
+                border-width: 0;
+            }
+            50% {
+                width: 2em;
+                height: 2em;
+                background: #00d478;
+                border: 0;
+                opacity: 0.6;
+            }
+            100% {
+                width: 2em;
+                height: 2em;
+                background: #00d478;
+                border: 0;
+                opacity: 1;
+            }
+        }
+        @media  screen and (max-width:767px) {
+
+            .t-0046{
+                width: 225px;
+            }
+            .tooltip_2 .tooltiptext_2 {
+                display: none;
+                position: static;
+            }
+            #btn_add_asistente_cliente{
+               
+            }
+            #nombre_asistente_cliente{
+                width: 100%;
+            }
+            #apellido_asistente_cliente{
+                width: 100%;
+            }
+            #email_asistente_cliente{
+                width: 100%;
+            }
+            .removeForMobile{
+                display: none !important;
+            }
+            .t-0040{
+            margin-left: 48px;
+            margin-top: -44px;
+            font-size: 11px;
+            float: left;
+            }
+
+            #t-0003{
+                min-height: 100%;  
+                height: unset;
+                overflow-y: auto;
+                overflow-x: hidden;
+
+            }   
+            .t-0004 {
+                height: 75px;
+            }
+            .t-0006 {
+                height: 70px;
+            }
+            .t-0005 {
+                padding-top: 15px;
+            }
+            .t-0012{
+                width: 100%;
+            }
+            
+            .t-0020{
+                width: 100%;
+            }
+
+            .inputTask{
+                width: 220px;
+            }
+
+            #notifyEmail, #addNoteTop, #addDocumentTop, #seeAsuntoGeneral, #markCompletedSon {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            
+           
+        }
